@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using WindowsInput;
@@ -55,14 +54,9 @@ class NumberMemoryTest
 
         while (true)
         {
-            // Get the page source
-            string pageSource = driver.PageSource;
+            
 
-            // Use HtmlAgilityPack to parse the page source
-            HtmlDocument htmlDoc = new HtmlDocument();
-            htmlDoc.LoadHtml(pageSource);
-
-            // Get the number needed in less than a second using XPath
+            // Get the number needed using XPath
             string numberXPath = "//*[@id=\"root\"]/div/div[4]/div[1]/div/div/div/div[1]";
             IWebElement numberElement = WaitForElement(driver, By.XPath(numberXPath), TimeSpan.FromHours(10));
             string number = numberElement.Text;
