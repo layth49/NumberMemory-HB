@@ -66,4 +66,4 @@ Don't forget to give the project a star! Thanks again!
 
 [repo-url]: https://github.com/layth49/NumberMemory-HB
 
-[typing-hb]: https://humanbenchmark.com/tests/number-memory
+[numberMemory-hb]: https://humanbenchmark.com/tests/number-memory
