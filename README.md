@@ -22,7 +22,7 @@
 
 [![Product Name Video][product-video]][repo-url]
 
-This project is made to cheat at the [Number Memory Test on HumanBenchmark.com][numberMemory-hb] using Selenium to get the number element and type it into the input field.
+This project is made to cheat at the [Number Memory Test on HumanBenchmark.com][numberMemory-hb] using Selenium to get the number element and type it into the input field. This can go on forever.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
